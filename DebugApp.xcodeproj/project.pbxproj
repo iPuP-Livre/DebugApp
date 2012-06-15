@@ -15,6 +15,11 @@
 		E07240161534297C00A5FF28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E07240151534297C00A5FF28 /* main.m */; };
 		E072401A1534297C00A5FF28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E07240191534297C00A5FF28 /* AppDelegate.m */; };
 		E072401D1534297C00A5FF28 /* DebugApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E072401B1534297C00A5FF28 /* DebugApp.xcdatamodeld */; };
+		E0724026153429BE00A5FF28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0724024153429BE00A5FF28 /* ViewController.m */; };
+		E0724027153429BE00A5FF28 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0724025153429BE00A5FF28 /* ViewController.xib */; };
+		E0724029153429D600A5FF28 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0724028153429D600A5FF28 /* CoreLocation.framework */; };
+		E072402C15342A8F00A5FF28 /* Pseudo.m in Sources */ = {isa = PBXBuildFile; fileRef = E072402B15342A8F00A5FF28 /* Pseudo.m */; };
+		E072403315355E3000A5FF28 /* DownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E072403215355E3000A5FF28 /* DownloadOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,13 +28,21 @@
 		E07240091534297C00A5FF28 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E072400B1534297C00A5FF28 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		E072400D1534297C00A5FF28 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		E07240111534297C00A5FF28 /* DebugApp-Info.plist */ = {isa = PBXFileReference; path = "DebugApp-Info.plist"; sourceTree = "<group>"; };
+		E07240111534297C00A5FF28 /* DebugApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DebugApp-Info.plist"; sourceTree = "<group>"; };
 		E07240131534297C00A5FF28 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E07240151534297C00A5FF28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E07240171534297C00A5FF28 /* DebugApp-Prefix.pch */ = {isa = PBXFileReference; path = "DebugApp-Prefix.pch"; sourceTree = "<group>"; };
-		E07240181534297C00A5FF28 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E07240171534297C00A5FF28 /* DebugApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DebugApp-Prefix.pch"; sourceTree = "<group>"; };
+		E07240181534297C00A5FF28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E07240191534297C00A5FF28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E072401C1534297C00A5FF28 /* DebugApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DebugApp.xcdatamodel; sourceTree = "<group>"; };
+		E0724023153429BE00A5FF28 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E0724024153429BE00A5FF28 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E0724025153429BE00A5FF28 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		E0724028153429D600A5FF28 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E072402A15342A8F00A5FF28 /* Pseudo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pseudo.h; sourceTree = "<group>"; };
+		E072402B15342A8F00A5FF28 /* Pseudo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pseudo.m; sourceTree = "<group>"; };
+		E072403115355E3000A5FF28 /* DownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadOperation.h; sourceTree = "<group>"; };
+		E072403215355E3000A5FF28 /* DownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0724029153429D600A5FF28 /* CoreLocation.framework in Frameworks */,
 				E07240081534297C00A5FF28 /* UIKit.framework in Frameworks */,
 				E072400A1534297C00A5FF28 /* Foundation.framework in Frameworks */,
 				E072400C1534297C00A5FF28 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +81,7 @@
 		E07240061534297C00A5FF28 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E0724028153429D600A5FF28 /* CoreLocation.framework */,
 				E07240071534297C00A5FF28 /* UIKit.framework */,
 				E07240091534297C00A5FF28 /* Foundation.framework */,
 				E072400B1534297C00A5FF28 /* CoreGraphics.framework */,
@@ -81,7 +96,14 @@
 				E07240181534297C00A5FF28 /* AppDelegate.h */,
 				E07240191534297C00A5FF28 /* AppDelegate.m */,
 				E072401B1534297C00A5FF28 /* DebugApp.xcdatamodeld */,
+				E072402A15342A8F00A5FF28 /* Pseudo.h */,
+				E072402B15342A8F00A5FF28 /* Pseudo.m */,
 				E07240101534297C00A5FF28 /* Supporting Files */,
+				E0724023153429BE00A5FF28 /* ViewController.h */,
+				E0724024153429BE00A5FF28 /* ViewController.m */,
+				E0724025153429BE00A5FF28 /* ViewController.xib */,
+				E072403115355E3000A5FF28 /* DownloadOperation.h */,
+				E072403215355E3000A5FF28 /* DownloadOperation.m */,
 			);
 			path = DebugApp;
 			sourceTree = "<group>";
@@ -148,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E07240141534297C00A5FF28 /* InfoPlist.strings in Resources */,
+				E0724027153429BE00A5FF28 /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +184,9 @@
 				E07240161534297C00A5FF28 /* main.m in Sources */,
 				E072401A1534297C00A5FF28 /* AppDelegate.m in Sources */,
 				E072401D1534297C00A5FF28 /* DebugApp.xcdatamodeld in Sources */,
+				E0724026153429BE00A5FF28 /* ViewController.m in Sources */,
+				E072402C15342A8F00A5FF28 /* Pseudo.m in Sources */,
+				E072403315355E3000A5FF28 /* DownloadOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +288,7 @@
 				E07240221534297C00A5FF28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
